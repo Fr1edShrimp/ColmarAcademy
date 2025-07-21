@@ -1,3 +1,24 @@
+* {
+margin: 0;
+padding: 0;
+color: rgb(74, 74, 74);
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+}
+
+/* Nav */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -15,6 +36,10 @@ nav {
     display: inline;
 }
 
+.logo img {
+    height: 40px;
+}
+
 ul {
     list-style-type: none;
     margin-right: 16px;
@@ -27,5 +52,46 @@ li {
 
 li > a {
     text-decoration: none;
-    color: black;
+    color: rgb(74, 74, 74);
+}
+
+/* Start here section */
+
+.start-here {
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.start-here img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start-here p {
+    margin: 3.7vw 4%;
+    font-size: 2.1vw;
+}
+
+.start-here h1 {
+    margin: 0 20% 0 4%;
+    font-size: 4.2vw;
+}
+
+.start-here a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 2.1vw;
+    padding: 8px 0;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    width: 60%;
+    margin: 0 4%;
 }
