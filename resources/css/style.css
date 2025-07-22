@@ -140,11 +140,6 @@ li > a {
     border: 1px solid rgb(216, 216, 216);
 }
 
-.tiny {
-    display: flex;
-    border: 1px solid rgb(216, 216, 216);
-}
-
 .tiny:hover {
     background-color: rgb(216, 216, 216);
 }
@@ -226,4 +221,51 @@ li > a {
 .b {
     padding-bottom: 8px;
     font-size: 1.3vw;
+}
+
+/* Thesis exhibit (Reuses most css from info section) */
+
+.exhibit {
+    padding: 0 10px 32px 24px;
+}
+
+.exhibit h1 {
+    text-align: center;
+    font-size: 3vw;
+    padding: 32px 0;
+}
+
+.thesis {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-info video {
+    padding-bottom: 24px;
+    width: 100%;
+}
+
+.thesis h1 {
+    font-size: 2vw;
+    padding-bottom: 8px;
+    padding-top: 0;
+    text-align: left;
+}
+
+.thesis .tiny {
+    border: none;
+}
+
+.thesis .main-info {
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-top: 1px solid rgb(234, 235, 236);
+    font-size: 1.2vw;
 }
